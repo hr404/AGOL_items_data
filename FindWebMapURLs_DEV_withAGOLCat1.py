@@ -1,18 +1,18 @@
 ﻿import os, urllib, json, csv
 
 #File parameters
-location = "C:\\Projects\\JSON"
-csv_file_input = "C:\\Projects\\AGOLData\\AGOLCat.csv"
-csv_file_output = "C:\\Projects\\AGOLData\\ItemTitles.csv"
-item_details = "C:\\Projects\\AGOLData\\ItemOpLayers_test.csv"
+location = "<path to store json files>"
+csv_file_input = "<arcgis online catalog .csv location>"
+csv_file_output = "<.csv file output with item ID and TITLE>"
+item_details = "<.csv file output with other parameters from the operational layers>"
 
 
 #AGOL User parameters
 # replace <<PLACEHOLDERS>> in next three lines with your information
 # e.g., portal = 'https://www.arcgis.com', username = 'jdoe1234', password = 'mypassword'
-portal = 'https://hrsd.maps.arcgis.com'
-username = 'cmccormick_HRSD'
-password = 'drytrak903'
+portal = '<insertportal here>'
+username = '<username>'
+password = '<password>'
 
 #--------------------------------------Delete File----------------------------------------------------------
 try:
